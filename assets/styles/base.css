@@ -27,3 +27,7 @@
     /* Font */
     --font-default: "Montserrat";
 }
+
+html {
+	min-width: fit-content;
+}
