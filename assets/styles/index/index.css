@@ -3,16 +3,32 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+
+  width: 100vw;
 }
 
 /*               TRACKER               */
+
+.tracker {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+
+  margin: 16px;
+  padding: 28px;
+
+  width: 1224px;
+  max-width: 100vw;
+
+  border-radius: 8px;
+  background-color: var(--color-blue-500);
+}
 
 /* Counter */
 .tracker__counter {
   height: 180px;
   display: flex;
   align-items: center;
-  gap: 4px;
 }
 
 .tracker__counter label {
@@ -29,9 +45,19 @@
 
   width: 142px;
   height: 90px;
-  border-radius: 8px;
 
   background-color: var(--color-blue-300);
+}
+
+.counter__days,
+.counter__record {
+  color: var(--color-blue-500);
+  font-weight: bold;
+  font-size: 40px;
+}
+
+.counter__left {
+  border-radius: 8px 0 0 8px;
 }
 
 .counter__center__container {
@@ -43,7 +69,7 @@
   height: 116px;
   border-radius: 80px;
   background-color: var(--color-blue-300);
-  box-shadow: 0 0 0 10px var(--color-blue-500), 0 0 0 24px var(--color-blue-300);
+  box-shadow: 0 0 0 10px var(--color-blue-500), 0 0 0 20px var(--color-blue-300);
 }
 
 .counter__center {
@@ -53,7 +79,6 @@
   justify-content: center;
 
   position: relative;
-  bottom: 8SSSpx;
 }
 
 .center__ball {
@@ -78,11 +103,8 @@
   color: var(--color-gray-50);
 }
 
-.counter__days,
-.counter__record {
-  color: var(--color-blue-500);
-  font-weight: bold;
-  font-size: 40px;
+.counter__right {
+  border-radius: 0 8px 8px 0;
 }
 
 .counter__days__label,
@@ -96,127 +118,47 @@
 }
 
 /* History */
-.history__table {
-  width: 100%;
-}
 
-.history__cell {
-  width: 11px;
-  height: 11px;
+.body__day,
+.head__month,
+.example__label {
+  font-size: 8pt;
+  font-weight: bold;
+  color: var(--color-gray-50);
+  width: 16px;
 }
 
 .history__day {
-  width: 11px;
-  height: 11px;
+  width: 20px;
+  height: 20px;
+  border-radius: 2px;
 
+  background-color: var(--color-blue-600);
+}
+
+.history__example {
+  display: flex;
+  justify-content: end;
+}
+
+.history__day--1 {
+  background-color: var(--color-blue-600);
+}
+
+.history__day--2 {
   background-color: var(--color-blue-400);
 }
-/*              FOR YOU               */
 
-.foryou__texts {
-  max-width: 1224px;
-  display: flex;
-  flex-direction: column;
-  padding: 24px 0px;
+.history__day--3 {
+  background-color: var(--color-blue-300);
 }
 
-.foryou__title {
-  font-size: 26pt;
-  color: var(--color-blue-300);
-}
-
-.foryou__subtitle {
-  font-size: 16pt;
-  color: var(--color-gray-100);
-}
-
-/*               BEST TIPS               */
-.besttips {
-  padding: 32px;
-  display: flex;
-  max-width: 1224px;
-  flex-direction: column;
-
-  border-radius: 20px;
-  background-color: var(--color-gray-50);
-}
-
-.notice__container {
-  display: flex;
-  flex-direction: column;
-  gap: 64px;
-}
-
-.besttips__title {
-  padding-bottom: 24px;
-  color: var(--color-gray-300);
-}
-
-/*              NOTICIES               */
-.notice {
-  gap: 32px;
-  width: 100%;
-
-  justify-content: space-around;
-  display: flex;
-}
-
-.notice__image {
-  width: 512px;
-  max-height: 323px;
-}
-
-.notice__texts {
-  display: flex;
-  flex-direction: column;
-  gap: 8px;
-}
-
-.notice__title {
-  color: var(--color-blue-400);
-  font-size: 24px;
-  font-weight: bold;
-  text-decoration: none;
-}
-.notice__title:hover {
-  text-decoration: underline;
-}
-
-.notice__description {
-  font-weight: 500;
-  color: var(--color-gray-200);
-}
-
-/*                 TAGS                 */
-.tags__container {
-  display: flex;
-  gap: 8px;
-  flex-direction: column;
-}
-
-.tags__label {
-  font-size: 12pt;
-  color: var(--color-gray-300);
-}
-
-.tags {
-  gap: 8px;
-  display: flex;
-  flex-wrap: wrap;
-}
-
-.tag {
+.history__day--4 {
   background-color: var(--color-blue-200);
-  color: var(--color-gray-50);
-  font-size: 8pt;
-  font-weight: bold;
-
-  border-radius: 4px;
-  padding: 4px 8px;
-
-  text-decoration: none;
 }
 
-.tag:hover {
-  text-decoration: underline;
+.history__day--5 {
+  background-color: var(--color-blue-100);
 }
+
+/*              FOR YOU               */
