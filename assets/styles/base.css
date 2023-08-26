@@ -1,33 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 
 :root {
-    /* gray */
-    --color-gray-50: #eaeaea;
-    --color-gray-100: #bebebf;
-    --color-gray-200: #9e9ea0;
-    --color-gray-300: #727275;
-    --color-gray-400: #56565a;
-    --color-gray-500: #2c2c31;
-    --color-gray-600: #28282d;
+  /* gray */
+  --color-gray-50: #f5f5f5;
+  --color-gray-100: #bebebf;
+  --color-gray-200: #9e9ea0;
+  --color-gray-300: #727275;
+  --color-gray-400: #56565a;
+  --color-gray-500: #2c2c31;
+  --color-gray-600: #28282d;
 
-    /* Blue */
-    --color-blue-50: #B8D6FF;
-    --color-blue-100: #A0C8FF;
-    --color-blue-200: #7FB6FF;
-    --color-blue-300: #549EFF;
-    --color-blue-400: #34629F;
-    --color-blue-500: #203D63;
-    --color-blue-600: #162944;
+  /* Blue */
+  --color-blue-50: #b8d6ff;
+  --color-blue-100: #a0c8ff;
+  --color-blue-200: #7fb6ff;
+  --color-blue-300: #549eff;
+  --color-blue-400: #34629f;
+  --color-blue-500: #203d63;
+  --color-blue-600: #162944;
 
-    /* Extras */
-    --color-red-50: #F26161;
-    --color-green-50: #00A650;
-    --color-yellow-50: #FFB444;
+  /* Extras */
+  --color-red-50: #f26161;
+  --color-green-50: #00a650;
+  --color-yellow-50: #ffb444;
 
-    /* Font */
-    --font-default: "Montserrat";
+  /* Font */
+  --font-default: "Montserrat";
 }
 
 html {
-	min-width: fit-content;
+  min-width: fit-content;
 }
