@@ -182,6 +182,12 @@
   width: 50%;
 }
 
+.welcome__title {
+  color: var(--color-blue-300);
+  font-size: 28pt;
+  font-weight: bold;
+}
+
 .welcome__subtitle {
   font-weight: 600;
   color: var(--color-gray-200);
