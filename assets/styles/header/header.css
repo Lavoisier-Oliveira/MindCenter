@@ -1,12 +1,30 @@
 .header {
-  display: flex;
+  display: block;
   align-items: center;
   justify-content: space-between;
 
   width: 100vw;
-  padding: 0 18px;
-
+  padding-right: 18px;
   background-color: var(--color-blue-300);
+}
+
+.header__top {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header__bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  background-color: var(--color-blue-400);
+}
+
+.header__searchbar {
+  background-color: var(--color-blue-100);
+  width: 45vw;
 }
 
 .logo {
@@ -36,7 +54,7 @@
 }
 
 .nav__element:hover {
-  background-color: var(--color-blue-200);
+  border-bottom: 4px solid #fff;
 }
 
 .nav__element.activate {
